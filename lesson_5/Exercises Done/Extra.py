@@ -37,6 +37,7 @@ while True:
         
    else:
          more < int('399')
+         percentage = more/salary*100
          print(f'Boss:"You are asking for {percentage}% more in salary. My answer is YES \N{winking face}')
          break  
 
