@@ -60,5 +60,29 @@ print('\N{money-mouth face}')
 print('\N{grimacing face}')
 print('\N{face with tears of joy}')
 
+start= 'Jag Tycker om äGg'
+goal = 'jAG tYCKER iNTE oM SPAM'
+words=start.split()
+words[1] = words[1].capitalize().swapcase()
+words.insert([2],"inte"capitalize().swapcase())
+words[3]=words[3].capitalize().swapcase()
+words[4]="SPAM"
 
+print(''.join(words))
+
+
+i = 1
+while i < 100:
+    i += 1
+    j = 2
+    is_prime = True
+    while j<i:
+        # print(f'i = {i} is divided by j: {i % j == 0}')
+        if i % j == 0:
+            is_prime = False
+            break
+        j += 1
+    if is_prime:
+      print(f'i={i} is a prime')
+    print(i)
 
